@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*::selection{
+    color: white;
+    background: #1d134d;
+}
+input{
+    background: #e9edf7;
+    border: 2px solid white;
+}
+input:focus{
+    border-color: #00FFD1!important;
+    outline: none;
+}
+
+
+/* css phần menu */
+.menu__pc{
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+    transition: all 0.5s;
+}
+.menu__pc .menu{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 32px;
+   margin: 0 15px;
+   align-items: center;
+   height: 80px;
+   position: relative;
+}
+.menu__content{
+    display: flex;
+    align-items: center;
+}
+.logo__white{
+    padding: 0 15px;
+}
+.logo__color{
+    display: none;
+}
+.menu__extra{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu__iteam--text{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.login__button{
+    color: #fff;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    transition: all .25s;
+    max-height: 40px;
+    padding: 7px 20px 10px;
+    display: block;
+}
+.login__button:hover{
+    background: #555a69;
+    color: #050354;
+    border: 2px solid #555a69;
+}
+.menu__iteam--text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15.5px;
+    font-weight: 400;
+    display: block;
+}
+/* .outside{
+    line-height: 80px;
+} */
+.text__extra--inside{
+    display: none;
+    width: 230px;  
+    text-align: left;
+    border-radius: 3px;
+    background: #1f2429;
+    line-height: 40px;
+    padding: 15px 0;
+    box-shadow: 0 10px 30px 0 rgb(10 10 25 / 15%);
+    transform:  translateX(-25%);
+    cursor: pointer;
+}
+.text__extra--inside li:hover{
+    opacity: 0.5;
+}
+.menu__main ul li:hover > ul{
+    display: block;
+    position: absolute;
+}
+.outside .menu__iteam--text{
+    padding: 32px 15px;
+}
+.menu__iteam--text:hover{
+    opacity: 0.5;
+}
+.text__extra--inside .menu__iteam--text{
+    padding: 4px 30px;
+    position: relative;
+    margin: 0;
+}
+.menu__main ul ul:before {
+    content: " ";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -8px;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #232323;
+    border-left: 10px solid transparent;
+}
+.menu__iteam--text i{
+    margin-left: 10px;
+}
+
+/* CSS PHẦn SCROLL */
+.select-box__scroll{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.select-box__scroll .options-container__scroll{
+    background-color: #FFFFFF;
+    color: #1D134D;
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 3px;
+    border: none;
+    position: absolute;
+    z-index: 10;
+    width: 135px;
+}
+.selected__scroll{
+    background: #FFFFFF;
+    margin-bottom: 8px;
+    color: #00003E;
+    position: relative;
+    width: 100px;
+    display: flex;
+}
+.selected__scroll i{
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    transition: all 0.4s;
+    font-size: 12px;
+}
+.select-box__scroll .options-container__scroll.active{
+    max-height: 253px;
+    opacity: 1;
+    position: absolute;
+    z-index: 10000;
+}
+.select-box__scroll .option__scroll,
+.selected__scroll{
+    padding: 11.5px 6px;
+    cursor: pointer;
+}
+.select-box__scroll .option__scroll.active{
+    background-color: #FFFFFF;
+}
+.select-box__scroll label{
+    cursor: pointer;
+}
+.select-box__scroll .option__scroll .radio{
+    display: none;
+}
+.option__scroll:hover{
+    background-color: #c6c4d2;
+    color: #0CFCD1;
+}
+.option__scroll i{
+    opacity: 0;
+}
+
+
+
+
+
+
+input{
+    width: 100%;
+}
+.linear__color-around__scroll{
+    display: flex;
+    justify-content: center;    
+}
+.a3__scroll{
+    max-width: 100%!important;
+    margin-right: 20px;
+}
+
+.linear__around__scroll{
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: -8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.liner__header{
+    position: relative;
+    float: left;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-right: 0;
+    text-align: left;
+    min-width: 10%;
+}
+.liner__search--footer__scroll{
+    position: relative;
+    display: inline-block;
+    flex: 1;
+    vertical-align: top;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search__scroll input{
+    border-color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 20px;
+    padding: 12px 18px;
+    width: 350px;
+    height: 40px;
+    border: 2px solid white;
+    position: relative;
+    z-index: 100;
+    color: rgba(0,0,0,.7);
+    font-size: 16px;
+    border-radius: 0 3px 3px 0;
+    text-align: left;
+    top: -4px;
+}
+.search__scroll input:hover{
+    border-bottom: 2px solid #00FFD1;
+}
+.icon__search__scroll{
+    position: absolute;
+    z-index: 100;
+    height: 40px;
+    width: 40px;
+    right: -1px;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-108%);
+    cursor: pointer;
+    margin-top: -1px;
+}
+.icon__search__scroll i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu__login__input{
+    display: flex;
+    align-items: center;
+}
+.icon__search__scroll i{
+    margin-left: 12px;
+}
+.innn{
+    position: absolute;
+    background-color: black;
+    height: 200px;
+    width: 135px;
+    z-index: 11;
+    opacity: 0;
+}
+
+/* css phan menu mobi */
+.menu__smart{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+.gach{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px auto;
+    transition: all 0.5s;
+}
+.gach:nth-child(2){
+    transition: all 0s
+    background-color 0.5s;
+}
+.bagach{
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+.bagach.click__left .gach:nth-child(2){
+    opacity: 0;
+}
+.bagach.click__left .gach:nth-child(1){
+    transform: translateY(7px)   rotate(45deg) ;
+}
+.bagach.click__left .gach:nth-child(3){
+    transform: translateY(-7px)   rotate(-45deg) ;
+}
+
+.menu__mobi{
+    padding: 0 11.25px;
+}
+.menu__in__mobi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    height: 80px;
+}
+.menu__icon__mobi{
+    display: flex;
+    align-items: center;
+}
+.logo__color{
+    display: none;
+}
+.smartphone{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    transition: all 0.5s;
+}
+.icon__shop{
+    padding:0 15px;
+}
+.icon__shop a{
+    padding: 10px 10px;
+    border-radius: 3px;
+    color: white; 
+    transition: all 0.5s;
+}
+.icon__shop a:hover{
+    background-color: #282837c7;
+}
+.menu__right.click__left{
+    transform: translateX(0);
+}
+.menu__right{
+    position: absolute;
+    z-index: 10001;
+    background-color: #282837;
+    height: 100%;
+    width: 240px;
+    color: white;
+    transform: translateX(-110%);
+    transition: transform 0.55s cubic-bezier(.785,.135,.15,.86);
+    position: fixed;
+}
+.menu__right a{
+    color: white;
+}
+.menu__r__mobi{
+    margin-top: 170px;
+}
+.text__and__iconar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__mobi__header{
+    padding: 13px 20px;
+    cursor: pointer;
+}
+.menu__mobi__header i{
+    color: gray;
+    font-size: 10px;
+}
+.menu__mobi__header:hover{
+    background-color: #1E1E2D;
+    color: black;
+}
+.menu__li2{
+    padding: 13px 0;
+}
+.menu__li2 a{
+    padding: 13px 20px;
+    padding-right: 174px;
+}
+.menu__li3{
+    padding: 13px 0;
+}
+.menu__li3 a{
+    padding: 13px 20px;
+    padding-right: 180px;
+}
+.menu__li4{
+    padding: 14px 0;
+}
+.menu__li4 a{
+    padding: 13px 20px;
+    padding-right: 167px;
+}
+.mobi__li1 a:hover{
+    background-color: #1E1E2D;
+    color: black;
+}
+.menu__lili1,.menu__lili2,.menu__lili3,.menu__lili4{
+    padding: 10px 0;
+}
+.menu__lili1 a{
+    padding: 10px 20px;
+    padding-right: 169px;
+}
+.menu__lili2 a{
+    padding: 10px 20px;
+    padding-right: 175px;
+}
+.menu__lili3 a{
+    padding: 10px 20px;
+    padding-right: 170px;
+}
+.menu__lili4 a{
+    padding: 10px 20px;
+    padding-right: 168px;
+}
+.mobi__li2 a{
+    font-size: 14px;
+}
+.mobi__li2 a:hover{
+    color: black;
+}
+.mobi__li2:hover{
+    background-color: #1E1E2D;
+}
+.menu__mobi__ul2.click__menu__mobi{
+    opacity: 1;
+    max-height: 200px;
+}
+.menu__mobi__ul2{
+    opacity: 0;
+    max-height: 0;
+    transition: all 1s;
+}
+.mobi__li1{
+    background-color: #282837;
+    position: relative;
+    border: 1px solid #282837;
+}
+.menu__mobi__header.focus__change__style{
+    background-color: white;
+    color: #1d134d;
+}
+
+.menu__smart{
+    float: left;
+}
+.opacity{
+    background-color: rgba(255, 255, 255, 0.26);
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: fixed;
+    opacity: 0.3;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+.opacity.click__right{
+    opacity: 1;
+    z-index: 10000;
+    transform: translateX(0);
+}

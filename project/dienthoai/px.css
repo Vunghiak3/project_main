@@ -1,0 +1,193 @@
+@media screen and (max-width: 765px) {
+    /* phần section2 */
+    .img__people{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .ima__df{
+        margin-bottom: 20px;
+    }
+
+    /* phần sciton 1 */
+    .line__1,.line__2,.line__3,.line__4{
+        display: block;
+        grid-gap: 22px;
+        flex-wrap: wrap;
+    }
+    .line1,.line2,.line3{
+        display: block;
+        grid-gap: 22px;
+        flex-wrap: wrap;
+    }
+    .line3 img{
+        width: 100%;
+    }
+    .around__abs{
+        padding: 80px 20px;
+    }
+    .none{
+        width: 100%;
+    }
+    .image__title{
+        margin: 20px 0;
+    }
+    .main__pic--hover{
+        width: 100%;
+    }
+
+    /* css phần seciton3 */
+    .popular__sea{
+        padding-bottom: 150px;
+    }
+
+    /* css phầN seciton 4 */
+    .text__block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text__block--1{
+        margin: 10px 0;
+    }
+
+    /* css phầN footer */
+    .table{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__icon{
+        margin: 0 20px;
+    }
+    .footer__icon--in{
+        flex-direction: column;
+        margin: 0 10px ;
+    }
+    .icon__inf{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    /* css phầN section3 */
+    .popular__sea{
+        padding-bottom: 150px;
+    }
+}
+@media screen and (max-width: 320px) {
+     /* css phần menu */
+     .menu__in__mobi,.menu__mobi{
+        padding: 0!important;
+    }
+    .menu__in__mobi{
+        justify-content: left!important;
+    }
+    .text__header--inside h1{
+        margin: 0;
+        margin-bottom: 6%;
+    }
+    .a2{
+        margin: 0 2% 0 2%!important;
+    }
+    .popular__in{
+        height: 350px!important;
+    }
+    .button__in--block a{
+        padding: 10px 24px!important;
+    }
+}
+@media screen and (max-width: 378px) {
+    /* css phầN section3 */
+    .popular__sea{
+        padding-bottom: 300px;
+    }
+}
+
+/* @ phầN menu */
+@media screen and (max-width: 1193px) {
+    .slider__in4{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .text__in__slider p{
+        height: 100%;
+        width: 100%;
+    }
+    .slide__container {
+        width: 100%;
+        flex-shrink: 0;
+    }
+    .text__in__slider p:before{
+        margin-left: -15px;
+    }
+    .text__in__slider{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .menu__pc{
+        display: none;
+    }
+    .smartphone{
+        z-index: 10000;
+    }
+    .menu__smart{
+        z-index: 100!important;
+    }
+    .text__header--inside h1{
+        font-size: 45px;
+    }
+    .text__footer--inside span{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 10px;
+    }
+    .selected{
+        width: 120px!important;
+        display: flex;
+    }
+    .selected i{
+        margin-left: 10px;
+        position: relative;
+        height: 100%;
+        width: 32px;
+        transition: all 0.4s;
+    }
+    .liner__header{
+        min-width: 10%;
+    }
+    .select-box{
+        width: 120px!important;
+    }
+    .select-box .options-container{
+        width: 127px!important;
+    }
+    .select-box .options-container.active{
+        max-height: 253px;
+    }
+    .text__header--inside h1 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .input__most,.information{
+        flex-direction: column;
+    }
+    /* trang about */
+    .table__flex{
+        flex-direction: column;
+    }
+    .table__around{
+        margin: 20px;
+    }
+    .pic__flex__content{
+        flex-direction: column;
+    }
+    .pic__in__on{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 371px) {
+    .text__header--inside h1 {
+        font-size: 44px!important;
+    }
+}

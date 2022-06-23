@@ -1,0 +1,150 @@
+
+
+
+/* css phần backgroind linear */
+.linear__contact{
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    background: linear-gradient(
+        121.28deg, #010012 0%, #00FF94 100%), linear-gradient(
+        180deg, #00647A 0%, #FFFFFF 100%), linear-gradient(
+        244.35deg, #FFB26A 0%, #C15151 50.58%, #00A3FF 100%), linear-gradient(
+        244.35deg, #E03F3F 0%, #00114B 49.48%, #FF0000 100%), radial-gradient(100% 233.99% at 0% 100%, #FF0000 0%, #AD00FF 100%), linear-gradient(
+        307.27deg, #096F5C 0.37%, #687EB5 50.19%, #8877CE 100%), radial-gradient(100% 140% at 100% 0%, #FF00C7 0%, #006C7A 49.48%, #FF9900 100%);
+    background-blend-mode: overlay, difference, overlay, overlay, difference, color-dodge, normal;
+}
+.topic__in h1{
+    font-size: 60px;
+}
+.topic__in a{
+    color: inherit;
+}
+
+
+
+input{
+    background: #e9edf7;
+    border: 2px solid white;
+}
+input:focus{
+    border-color: #00FFD1;
+    outline: none;
+}
+/* css phần input */
+.input__most{
+    display: flex;
+    max-width: 1225px;
+    margin: 0 auto;
+}
+.input__many__fl{
+    padding: 0 10px;
+    width: 100%;
+}
+.input__three input{
+    padding: 13px 20px;
+    margin-bottom: 30px;
+    max-height: 70px;
+    height: 70px;
+    font-size: 16px;
+    color: #1d134d;
+    width: 100%;
+}
+.input__three input:hover{
+    border-bottom: 2px solid #00FFD1;
+}
+.input__right__many{
+    padding: 0 10px;
+    width: 100%;
+}
+.input__right__many textarea{
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    height: 286px;
+    background-color: #e9edf7;
+    border: 2px solid white;    
+    resize: vertical;
+    color: #1d134d;
+    margin-bottom: 15px;
+}
+.input__right__many textarea:hover{
+    border-bottom: 2px solid #00FFD1;
+}
+.input__right__many textarea:focus{
+    border-color: #00FFD1;
+    outline: none;
+}
+.topic__input{
+    max-width: 1225px;
+    margin: 0 auto;
+}
+.input__container{
+    padding: 142px 0px 100px 0px;
+}
+.input__document p{
+    color: #1d134d;
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+.submit__contact div{
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    width: 155px;
+    color: #1D134D !important;
+    height: 60px;
+    background: #00ffd1;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* css phần informaiton */
+.in4{
+    max-width: 1225px;
+    margin: 0 auto;
+    color: #1d134d;
+    padding: 10px 0 60px;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inf__contact i{
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #291c6ec9;
+}
+.inf__contact{
+    width: 100%;
+    padding: 10px;
+}
+.inf__contact div{
+    border: 1px solid #1d134d;
+    padding: 55px 0;
+}
+.inf__contact h1{
+    margin-bottom: 10px;
+}
+.inf__contact p{
+    line-height: 30px;
+    font-size: 19px;
+}
+
+
+/* css phần map */
+.map__around{
+    max-width: 1225px;
+    margin: 0 auto;
+    padding: 80px 10px 150px;
+}
+.map iframe{
+    width: 100%;
+}

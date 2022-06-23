@@ -1,0 +1,262 @@
+.text__linear__header{
+    background: linear-gradient(
+120deg, #FF00C7 0%, #51003F 100%), linear-gradient(
+120deg, #0030AD 0%, #00071A 100%), linear-gradient(
+180deg, #000346 0%, #FF0000 100%), linear-gradient(
+60deg, #0029FF 0%, #AA0014 100%), radial-gradient(100% 165% at 100% 100%, #FF00A8 0%, #00FF47 100%), radial-gradient(100% 150% at 0% 0%, #FFF500 0%, #51D500 100%);
+    background-blend-mode: overlay, color-dodge, overlay, overlay, difference, normal;
+    color: white;
+}
+.background__linear{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+.background__linear a{
+    color: inherit;
+}
+.m_p{
+    margin-bottom: 20px;
+    padding: 8px 15px;
+}
+.background__linear h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+
+/* css phần ALL PRODUCTS FROM ABSTRACT */
+.main__pic--hover{
+    padding: 56px 32px 135px 32px;
+}
+.ms__title-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.title__box--full{
+    display: flex;
+    color: #1D134D;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title__box--inside{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.title__main{
+    font-size: 15px;
+}   
+/* css phần java search */
+.title__extra{
+    display: flex;
+    width: 140px;
+    flex-direction: column;
+}
+.title__extra .options__radius{
+    background-color: #FFFFFF;
+    color: #1D134D;
+    max-height: 0;
+    width: 154px;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 3px;
+    border: none;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    margin-top: 4px;
+}
+.title__main{
+    background: #FFFFFF;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 175px;
+    color: #00003E;
+    position: relative;
+}
+.title__main i{
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 22px;
+    transition: all 0.4s;
+    margin-left: 10px;
+}
+.title__extra .options__radius.active{
+    max-height: 315px;
+    opacity: 1;
+    position: absolute;
+    z-index: 10000;
+}
+.title__extra .option__js,
+.title__in{
+    padding: 14px 12px;
+    cursor: pointer;
+}
+.title__extra .option__js.active{
+    background-color: #FFFFFF;
+}
+.title__extra label{
+    cursor: pointer;
+}
+.title__extra .option__js .radio{
+    display: none;
+}
+.option__js:hover{
+    background-color: #c6c4d2;
+    color: #0CFCD1;
+}
+.option__js i{
+    opacity: 0;
+}
+
+
+
+/* css phaanf anhr */
+.image__title{
+    position: relative;
+    z-index: 10;
+}
+.button__in--image{
+    position: absolute;
+    z-index: 100;
+    right: 12px;
+    top: 12px;
+    background-color: white;
+    display: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.image__title:hover .button__in--image{
+    display: block;
+}
+.button__in--image:hover{
+    background-color: aqua;
+    color: white;
+}
+.row{
+    position: relative;
+    /* height: 1256.94px; */
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+/* hover phần ảnh */
+.image__main img{
+    position: relative;
+}
+.a__in--img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.text__in--image{
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    padding: 0 16px;
+    padding-bottom: 16px;
+    display: none;
+    color: white;
+}
+.image__title:hover .text__in--image{
+    display: block;
+}
+.image__title:hover .a__in--img{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
+}
+.image__main{
+    transition: all 0.3s ease;
+}
+.image__title:hover .image__main{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.text__in--image h4 a{
+    max-width: 100%;
+    display: block;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text__in--image a{
+    color: white;
+}
+.picture__buy img{
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    transition: opacity .2s ease-in;
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(1,1);
+    width: 100%;
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: .8;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    box-shadow: none;   
+}
+
+.around__abs{
+    padding: 80px 0px;
+}
+.pic__image{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.line1,.line2,.line3{
+    display: flex;
+    margin: 25px 0;
+    grid-column-gap: 20px ;
+    justify-content: center;
+}
+.line3 img{
+    width: 292px;
+    height: 100%;
+}
+.none{
+    width: 292px;
+    height: 100%;
+}
+
+
+/* css phần next và prev */
+.np__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D134D;
+    font-weight: bold;
+    font-size: 16px;
+}
+.np__header a{
+    color: inherit;
+}
+.np__header span,.two__next a,.next__next a{
+    margin: 5px 7px;
+    padding: 12px 12px;
+    border-radius: 3px;
+}
+.two__next a:hover,.next__next a:hover{
+    cursor: pointer;
+    background-color: #00FFD1;
+    color: white;
+}
+.ne__pre__container{
+    padding-top: 60px;
+}

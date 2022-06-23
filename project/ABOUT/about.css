@@ -1,0 +1,196 @@
+
+
+
+
+
+/* css phầN header about text */
+.text__about{
+    text-align: center;
+    background: linear-gradient(
+        121.28deg, #010012 0%, #00FF94 100%), linear-gradient(
+        180deg, #00647A 0%, #FFFFFF 100%), linear-gradient(
+        244.35deg, #FFB26A 0%, #C15151 50.58%, #00A3FF 100%), linear-gradient(
+        244.35deg, #E03F3F 0%, #00114B 49.48%, #FF0000 100%), radial-gradient(100% 233.99% at 0% 100%, #FF0000 0%, #AD00FF 100%), linear-gradient(
+        307.27deg, #096F5C 0.37%, #687EB5 50.19%, #8877CE 100%), radial-gradient(100% 140% at 100% 0%, #FF00C7 0%, #006C7A 49.48%, #FF9900 100%);
+    background-blend-mode: overlay, difference, overlay, overlay, difference, color-dodge, normal;
+    padding-top: 200px;
+    padding-bottom: 390px;
+    color: white;
+}
+.text__about h1{
+    font-size: 60px;
+}
+.text__about a{
+    color: inherit;
+}
+
+
+/* css phần ảnh với We Provide Awesome Service For Our Clients */
+.around__document{
+    max-width: 1150px;
+    margin: 0 auto;
+    color: #1d134d;
+    text-align: center;
+    padding-bottom: 132px;
+}
+.img__in__doc{
+    margin-top: -220px;
+}
+.img__in__doc img{
+    width: 100%;
+    padding: 0 10px;
+}
+.text__in__doc{
+    max-width: 784px;
+    margin: 0 auto;
+}
+.text__in__doc h1{
+    font-size: 45px;
+    margin:20px 0;
+    padding-top: 46px;
+}
+.text__in__doc p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0 30px;
+    line-height: 30px;
+}
+
+/* css phần our */
+.content__our{
+    background-color: #F5F6F9;
+}
+.content__our__around{
+    padding: 60px 0px 140px 0px;
+}
+.container__our{
+    color: #1d134d;
+    padding: 10px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.text__content__our{
+    margin-bottom: 40px;
+}
+.text__our__in{
+    text-align: center;
+}
+.text__our__in h1{
+    font-size: 48px;
+    margin-bottom: 7.5px;
+}
+.text__our__in p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 12px 0 7px;
+}
+.table__four{
+    margin-top: 40px;
+}
+.table__flex{
+    display: flex;
+    justify-content: center;
+}
+.table__around{
+    /* width: 100%; */
+    border: 1px solid white;
+    margin: 0 20px;
+    text-align: center;
+    color: #1d134d;
+    background-color: white;
+    padding: 10px;
+}
+.table__in__4{
+    padding: 40px 20px 30px;
+}
+.table__in__4 h2{
+    font-size: 30px;
+    margin-bottom: 7.5px;
+}
+.table__in__4 p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+/* css phầN our team */
+.our__team{
+    padding: 110px 0;
+}
+.team__around{
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+    color: #1d134d;
+}
+.team__text__content{
+    padding: 10px;
+}
+.team__text__content h1{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.team__text__content p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 12px 0 7px;
+}
+.pic__flex__content{
+    display: flex;
+    margin-top: 20px;
+}
+.pic__flex__content img{
+    width: 100%;
+}
+.pic__around__on{
+    padding: 10px;
+    text-align: left;
+}
+.pic__in__on h3{
+    margin-top: 20px;
+}
+.pic__in__on em {
+    line-height: 25px;
+}
+
+/* css phần logo ảnh */
+.topic__trusted{
+    background-color: #F5F6F9;
+    color: #1d134d;
+}
+.text__and__logo{
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 0px 120px 0px;
+}
+.text__trust h1{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.text__trust p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 12px 0 7px;
+}
+.logo__inside{
+    padding-top: 40px;
+}
+.logo__inside ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin:  0 -11.25px 15px;
+}
+.logo__inside ul li{
+    padding: 0 11.25px;
+    margin-bottom: 15px;
+}
+.logo__inside img{
+    width: 100%;
+}
+
+

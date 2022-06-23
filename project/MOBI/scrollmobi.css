@@ -1,0 +1,25 @@
+
+
+@media screen and (max-width: 992px) {
+    .smartphone.mobi{
+        background-color: white;
+    }
+    .logo__mau.mobi{
+        display: block;
+        padding: 0 15px;
+    }
+    .logo__trang.mobi{
+        display: none;
+    }
+    .icon__shop__a.mobi{
+        color: #1d134d;
+    }
+    .icon__shop__a.mobi:hover{
+        color: #ffffff;
+    }
+    .gach1.mobi,
+    .gach2.mobi,
+    .gach3.mobi{
+        background-color: #1d134d;
+    }
+}

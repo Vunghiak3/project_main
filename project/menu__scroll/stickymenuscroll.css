@@ -1,0 +1,36 @@
+.menu__pc.sticky{
+    background-color: white;
+}
+.a3__scroll.sticky{
+    display: block;
+}
+.logo__color.sticky{
+    display: block;
+    padding: 0 15px;
+}
+.logo__white.sticky{
+    display: none;
+}
+.menu__iteam--text.sticky{
+    color: #1d134d;
+}
+.sc2.sticky,
+.sc3.sticky,
+.sc4.sticky{
+    color: #1d134d;
+}
+.login__button.sticky{
+    border: 2px solid #1d134d;
+    color: #1d134d;
+}
+.login__button.sticky:hover{
+    opacity: 0.5;
+    background: unset;
+}
+.icon__search__scroll.sticky{
+    background-color: rgb(255, 255, 255);
+    border: 1px  solid white;
+    margin-top: 0.7px;
+    height: 42.5px;
+}
+

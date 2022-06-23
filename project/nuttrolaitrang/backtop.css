@@ -1,0 +1,28 @@
+/* css nút trở lại trang */
+.button__back{
+    position: fixed;
+    right: 20px;
+    z-index: 10001;
+    background-color: #00FBD0;
+    height: 29px;
+    width: 27px;
+    bottom: 18px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: #098f7969 0px 10px 20px, #098f7963 0px 6px 6px;
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.button__back.totop{
+    z-index: 10001;
+    opacity: 1;
+}
+.button__back i{
+    font-size: 12px;
+}
+html{
+    scroll-behavior: smooth;
+}

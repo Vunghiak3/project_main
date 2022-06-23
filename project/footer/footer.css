@@ -1,0 +1,97 @@
+/* css phần footer */
+.background__footer{
+    background: linear-gradient(
+    180deg, #1400FF 0%, #000000 100%), linear-gradient(
+    154.03deg, #33FF00 0%, #FF003D 74.04%), linear-gradient(
+    341.1deg, #F3D0FC 7.52%, #1700A4 77.98%), linear-gradient(
+    222.34deg, #A90000 12.99%, #00FFE0 87.21%), linear-gradient(
+    150.76deg, #B7D500 15.35%, #2200AA 89.57%);
+    background-blend-mode: overlay, difference, difference, difference, normal;
+    padding: 120px 0 80px;
+}
+.footer__content{
+    max-width: 1170px;
+    margin: 0 auto;
+    color: white;
+}
+.footer__content a{
+    color: inherit;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+.table_1,.table_3,.table_4,.table_2{
+    margin-bottom: 20px;
+    padding: 0 15px;
+    width: 100%;
+}
+#border{
+    padding: 0 0 16px ;
+    margin: 0 0 7.5px;
+    border-bottom:  2px #8a85e3a2 solid;
+    font-size: 20px;
+    line-height: 30px;
+}
+.table li a{
+    font-size: 16px;
+    line-height: 30px;
+}
+.table__in ul{
+    margin-top: 20px;
+}
+.input-icon{
+    padding: 34px 0 10px;
+    position: relative;
+}
+.input__footer{
+    margin: 0 0 15px;
+    padding: 10px 15px;
+    background: none;
+    border: 2px solid gray;
+    color: white;
+    line-height: 25px;
+}
+.icon-css{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transform: translate(-20%, 127%);
+    z-index: 100;
+}
+.fa-arrow-right{
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.img__footer{
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.footer__icon{
+    padding: 48px 0 0;
+    margin: 48px 0 0;
+    border-top: 1px solid white;
+    max-width: 1117px;
+    margin: 0 auto;
+}
+.footer__icon--in{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.icon__inf{
+    display: flex;
+    grid-column-gap: 40px;
+    flex-wrap: wrap;
+}
+.icon__inf a i{
+    color: white;
+    transition: all 0.2s;
+}
+.icon__inf a i:hover{
+    color: rgba(255, 255, 255, 0.24);
+}
