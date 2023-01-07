@@ -63,9 +63,6 @@ function handleChangeSlide(direction){
         }
         positonX = positonX + sliderWidth;
         sliderIn6.style = `transform: translateX(${positonX}px);`;
-        // console.log(index);
-        // console.log(positonX);
-        // console.log("prev slide");
     }
     [...dotIteams].forEach((g) => g.classList.remove("active__iteam"))
     dotIteams[index].classList.add("active__iteam")
